@@ -1,0 +1,62 @@
+# Site wide configuration
+
+title:            Dung Nguyen
+locale:           en_US
+url:              https://dungnth92.github.io
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+rouge: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Dung Nguyen
+  avatar: dungnth92-avatar.jpg
+  bio: "First, solve the problem. Then, write the code."
+  email: dungnth92@gmail.com
+  disqus-shortname:
+  twitter: #anhnc92
+  facebook: dungnth92
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: dungnth92
+  stackoverflow: # 3799893/anhnc   #from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: nguyễn-hương-dung-9a53b8172
+  xing: #username
+  instagram: huong.dung.nguyen
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  appstore: dung-nguyen/id1567029696
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
